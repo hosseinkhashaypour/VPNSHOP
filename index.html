@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="VM.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خوش آمدید</title>
+</head>
+
+<body>
+  <br>
+  <br>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">درباره ما</a>
+      <a href="service.html">سرویس های موجود</a>
+      <a href="vm.html">خروج از حساب کاربری</a>
+    </div>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; تنظیمات</span>
+  <br>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          کانفیگ های فعال من
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          vless://6b7b0dd5-2c39-4e78-8547-03665d1e898f@mediia.vmhkh.site:2096?encryption=none&security=none&type=tcp&headerType=http&host=bmw.com#VM-GERMANY%F0%9F%87%A9%F0%9F%87%AA-Khdm
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          میزان مصرف
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body" style="text-align: center;">
+          <h2 style="border: 1px solid white;background-color: 
+            #31e200
+            ;border: 1px solid white;
+    background-color: #31e200;
+    width: 50%;
+    border-radius: 22px;
+    color: whitre;
+    color: white;
+    margin-left: 85px;">فعال</h2>
+          <p1>حجم کل :100گیگ</p1>
+          <br>
+          <p2>حجم مصرف شده :50گیگ</p2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          چطوری وصل بشیم؟
+        </button>
+      </h2>
+
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="android">
+            <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang&hl=en&gl=US"><img
+                src="https://cdn-icons-png.flaticon.com/512/226/226770.png" alt="android"></a>
+            <p>برای دانلود برنامه ویتوری برای اندروید روی عکس کلیک کنید</p>
+          </div>
+          <br>
+          <br>
+          <div class="ios">
+            <a href="https://apps.apple.com/de/app/streisand/id6450534064"><img
+                src="https://www.freeiconspng.com/thumbs/ios-png/os7-style-metro-ui-icon-19.png" alt=""></a>
+            <p>برای دانلود برنامه استریسند روی عکس کلیک کنید</p>
+          </div>
+          <br>
+          <div class="windows">
+            <a href="https://github.com/v2ray/v2ray-core/releases"> <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png" alt=""></a>
+            <br>
+            <p>برای دانلود ویتوری برای ویندوز روی عکس کلیک کنید</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+</body>
+<script>
+  const profileIcon = document.getElementById('profile-icon');
+  const logoutBtn = document.getElementById('logout-btn');
+
+  // Add click event listener to profile icon
+  profileIcon.addEventListener('click', function () {
+    // Toggle the 'hidden' class on the logout button
+    logoutBtn.classList.toggle('hidden');
+  });
+
+</script>
+
+</html>

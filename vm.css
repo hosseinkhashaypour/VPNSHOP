@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222222 !important;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: lale;
+    src: url(Lalezar-Regular.ttf);
+}
+
+@font-face {
+    font-family: irs;
+    src: url(IRANSansWeb_Bold.ttf);
+}
+
+@font-face {
+    font-family: aviny;
+    src: url(aviny.ttf);
+}
+
+@media (min-width:300px) {
+    #login-form h1 {
+        color: rgb(81, 255, 0);
+        font-family: lale;
+        font-size: x-large;
+        text-shadow: 5px 5px 5px rgb(81, 255, 0);
+    }
+}
+
+@media (min-width:300px) {
+    #login-form {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 91%;
+        height: 333px;
+        margin-top: 211px;
+        margin-left: 14px;
+        border: 3px solid white;
+        border-radius: 7px;
+        backdrop-filter: blur(15px);
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+
+@media (min-width:300px) {
+    #login-form input {
+        backdrop-filter: blur(15px);
+        background: rgba(255, 255, 255, 0);
+        border-radius: 15px;
+        width: 327px;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media (min-width:300px) {
+    #login-form input:focus {
+        outline: none;
+        /* border: 1px solid black; */
+    }
+}
+
+@media (min-width:300px) {
+    #login-form input::placeholder {
+        color: white;
+        font-family: lale;
+    }
+}
+
+@media (min-width:300px) {
+    #login-form button {
+        width: 119px;
+        background-color: rgb(81, 255, 0);
+        outline: none;
+        border-radius: 18px;
+        font-family: lale;
+    }
+}
+@media (min-width:300px) {
+    .profile-icon img {
+        width: 50px;
+        border-radius: 50%;
+        margin-top: -996px;
+        margin-left: 20px;
+        cursor: pointer;
+
+    }
+}
+
+/* aonther devices design */
+@media (min-width:500px) {
+    #login-form {
+        margin-top: 96px;
+        margin-left: 312px;
+        width: 50%;
+    }
+}
+
+@media (min-width:500px) {
+    .profile-icon img {
+        width: 45px;
+        border-radius: 50%;
+        margin-top: -804px;
+        margin-left: 15px;
+        /* outline: green; */
+        cursor: pointer;
+    }
+}
+

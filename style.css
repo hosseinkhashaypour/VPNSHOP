@@ -1,0 +1,253 @@
+:root {
+    --lale: lale;
+    --aviny: aviny;
+    --irs: irs;
+}
+
+@font-face {
+    font-family: lale;
+    src: url(Lalezar-Regular.ttf);
+}
+
+@font-face {
+    font-family: irs;
+    src: url(IRANSansWeb_Bold.ttf);
+}
+
+@font-face {
+    font-family: aviny;
+    src: url(aviny.ttf);
+}
+
+body {
+    background: #004993 !important;
+}
+
+/* mfd */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media (min-width:300px) {
+    .accordion-header {
+        font-family: var(--irs);
+        font-size: xx-large;
+
+    }
+}
+
+@media (min-width:300px) {
+    .accordion-body {
+        overflow: scroll;
+    }
+}
+
+@media (min-width:300px) {
+    .android {
+        border: 2px solid black;
+        background: rgb(8, 255, 0);
+        background: linear-gradient(320deg, rgba(8, 255, 0, 1) 0%, rgba(201, 255, 0, 1) 100%);
+        border-radius: 7px;
+    }
+}
+
+@media (min-width:300px) {
+    .android img {
+        width: 50px !important;
+        margin-left: 285px;
+    }
+}
+
+@media (min-width:300px) {
+    .android p {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+        font-family: var(--irs);
+    }
+}
+
+@media (min-width:300px) {
+    .android p:hover {
+        transform: scale(1.2);
+    }
+}
+
+@media (min-width:300px) {
+    .ios {
+        border: 2px solid black;
+        background: rgb(0, 137, 255);
+        background: linear-gradient(320deg, rgba(0, 137, 255, 1) 0%, rgba(0, 255, 249, 1) 100%);
+        border-radius: 7px;
+    }
+}
+
+@media (min-width:300px) {
+    .ios img {
+        width: 50px !important;
+        margin-left: 285px;
+    }
+}
+
+@media (min-width:300px) {
+    .ios p {
+        color: black;
+        text-align: center;
+        font-family: var(--irs);
+    }
+}
+
+@media (min-width:300px) {
+    .windows {
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width:300px) {
+    .windows img {
+        width: 45px !important;
+        margin-left: 285px;
+    }
+}
+
+@media (min-width:300px) {
+    .windows p {
+        color: white;
+        text-align: center;
+        font-family: var(--irs);
+    }
+}
+
+/* another devices design */
+@media (min-width:500px) {
+    .accordion-body {
+        overflow: visible;
+    }
+}
+
+@media (min-width:500px) {
+    #collapseOne {
+        margin-left: 326px;
+    }
+}
+
+@media (min-width:500px) {
+    #collapseOne h2 {
+        border: 1px solid white;
+        background-color: #31e200;
+        border: 1px solid white;
+        background-color: #31e200;
+        width: 20% !important;
+        border-radius: 22px;
+        color: white;
+        margin-left: 217px !important;
+    }
+}
+
+@media (min-width:500px) {
+    #collapseOne p {
+        font-family: var(--irs);
+        margin-right: 339px;
+    }
+}
+
+@media (min-width:500px) {
+
+    .ios,
+    .windows,
+    .android {
+        width: 818px;
+        margin-left: -57px;
+    }
+}
+
+@media (min-width:500px) {
+    .ios img {
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 500px) {
+    #collapseOne p {
+        font-family: var(--irs);
+        margin-right: 43px;
+    }
+}
+
+@media (min-width:500px) {
+    #collapseOne img {
+        margin-left: 363px;
+    }
+}
+
+@media (min-width:500px) {
+
+    .accordion-body p1,
+    p2 {
+        text-align: center;
+        margin-right: 338px;
+        font-family: var(--irs);
+    }
+}
+@media (min-width:500px) {
+    .accordion-body img{
+        transition: all 1s;
+    }
+}
+@media (min-width:500px) {
+    .accordion-body img:hover {
+        transform: scale(1.2);
+    }
+}
